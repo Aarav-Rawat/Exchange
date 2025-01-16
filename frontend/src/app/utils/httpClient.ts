@@ -1,6 +1,5 @@
 import axios from "axios";
-import { Depth, KLine, Ticker, Trade } from "./types";
-
+import { Depth, KLine, Ticker, Trade } from "./types"
 const BASE_URL = "https://exchange-proxy.100xdevs.com/api/v1";
 
 export async function getTicker(market: string): Promise<Ticker> {
